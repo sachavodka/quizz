@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <h1>Quizz World</h1>
+    <div id="container">
+        <div class="item">
+            <header>Applications Web</header>
+            <img class="monimage" src="img/web.jpg" alt="Web">
+            <div id="btnradio">
+                <input type="radio" id="debutant" name="niveau" value="débutant-0">
+                <label for="debutant">Débutant</label>
+                <input type="radio" id="confirme" name="niveau" value="confirmé-0">
+                <label for="confirme">Confirmé</label>
+                <input type="radio" id="expert" name="niveau" value="expert-0">
+                <label for="expert">Expert</label>
+            </div>
+        </div>
+        <br>
+        <div class="item">
+            <header>Animaux en Chiffres</header>
+            <img class="monimage" src="img/animaux_en_chiffres.jpg" alt="Animaux en Chiffres">
+            <div id="btnradio">
+                <input type="radio" id="debutant8" name="niveau" value="débutant-8">
+                <label for="debutant8">Débutant</label>
+                <input type="radio" id="confirme8" name="niveau" value="confirmé-8">
+                <label for="confirme8">Confirmé</label>
+                <input type="radio" id="expert8" name="niveau" value="expert-8">
+                <label for="expert8">Expert</label>
+            </div>
+        </div>
+        <br>
+        <div class="item">
+            <header>Le XXième Siècle</header>
+            <img class="monimage" src="img/dates20.jpg" alt="Dates du XX Siècle">
+            <div id="btnradio">
+                <input type="radio" id="debutant10" name="niveau" value="débutant-10">
+                <label for="debutant10">Débutant</label>
+                <input type="radio" id="confirme10" name="niveau" value="confirmé-10">
+                <label for="confirme10">Confirmé</label>
+                <input type="radio" id="expert10" name="niveau" value="expert-10">
+                <label for="expert10">Expert</label>
+            </div>
+        </div>
+        <br>
+        <div class="item">
+            <header>Nintendo</header>
+            <img class="monimage" src="img/nintendo.jpg" alt="Nintendo">
+            <div id="btnradio">
+                <input type="radio" id="debutant12" name="niveau" value="débutant-12">
+                <label for="debutant12">Débutant</label>
+                <input type="radio" id="confirme12" name="niveau" value="confirmé-12">
+                <label for="confirme12">Confirmé</label>
+                <input type="radio" id="expert12" name="niveau" value="expert-12">
+                <label for="expert12">Expert</label>
+            </div>
+        </div>
+        <br>
+        <div class="item">
+            <header>Trouver le Nombre</header>
+            <img class="monimage" src="img/nombres.jpg" alt="Trouver le Nombre">
+            <div id="btnradio">
+                <input type="radio" id="debutant13" name="niveau" value="débutant-13">
+                <label for="debutant13">Débutant</label>
+                <input type="radio" id="confirme13" name="niveau" value="confirmé-13">
+                <label for="confirme13">Confirmé</label>
+                <input type="radio" id="expert13" name="niveau" value="expert-13">
+                <label for="expert13">Expert</label>
+            </div>
+        </div>
+        <br>
+        <div class="item">
+            <header>Microsoft</header>
+            <img class="monimage" src="img/microsoft.jpg" alt="Microsoft">
+            <div id="btnradio">
+                <input type="radio" id="debutant14" name="niveau" value="débutant-14">
+                <label for="debutant14">Débutant</label>
+                <input type="radio" id="confirme14" name="niveau" value="confirmé-14">
+                <label for="confirme14">Confirmé</label>
+                <input type="radio" id="expert14" name="niveau" value="expert-14">
+                <label for="expert14">Expert</label>
+            </div>
+        </div>
+        <br>
+        <div class="item">
+            <header>Marques et Slogans</header>
+            <img class="monimage" src="img/marquesslogans.jpg" alt="Marques et Slogans">
+            <div id="btnradio">
+                <input type="radio" id="debutant39" name="niveau" value="débutant-39">
+                <label for="debutant39">Débutant</label>
+                <input type="radio" id="confirme39" name="niveau" value="confirmé-39">
+                <label for="confirme39">Confirmé</label>
+                <input type="radio" id="expert39" name="niveau" value="expert-39">
+                <label for="expert39">Expert</label>
+            </div>
+        </div>
+        <br>
+        <div class="item">
+            <header>Méandres d'Internet</header>
+            <img class="monimage" src="img/internet.jpg" alt="Méandres d'Internet">
+            <div id="btnradio">
+                <input type="radio" id="debutant40" name="niveau" value="débutant-40">
+                <label for="debutant40">Débutant</label>
+                <input type="radio" id="confirme40" name="niveau" value="confirmé-40">
+                <label for="confirme40">Confirmé</label>
+                <input type="radio" id="expert40" name="niveau" value="expert-40">
+                <label for="expert40">Expert</label>
+            </div>
+        </div>
+        <br>
+    </div>
+    <div id="quizz"></div>
+    <div id="aside">
+        <div id="droppable" class="ui-widget-header">
+            <p>Posez votre réponse ici !!!</p>
+        </div> 
+        <button id="suivant">Suivant</button>
+    </div>
+</body>
+</html>
