@@ -1,0 +1,13 @@
+#container{
+    width : 60%;
+    margin: 0 auto;
+}
+
+
+#theme{
+    width: 400px;
+
+}
+#question, #anecdote{
+    width: 400px;
+}
